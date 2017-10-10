@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBacground"
+    tools:context="com.example.kamil.wisielecv2.MultiPlayGame">
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewWord">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/bu1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="32dp"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                android:background="@android:drawable/btn_default"
+                android:onClick="chooseButton"
+                android:text="@string/a"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/bu2"
+                android:textColor="@android:color/black"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/aa" />
+
+            <Button
+                android:id="@+id/bu3"
+                android:textColor="@android:color/black"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/b" />
+
+            <Button
+                android:id="@+id/bu4"
+                android:textColor="@android:color/black"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/c" />
+
+            <Button
+                android:id="@+id/bu5"
+                android:textColor="@android:color/black"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/cc" />
+
+            <Button
+                android:id="@+id/bu6"
+                android:textColor="@android:color/black"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/d" />
+
+            <Button
+                android:id="@+id/bu7"
+                android:textColor="@android:color/black"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/e" />
+
+            <Button
+                android:id="@+id/bu8"
+                android:textColor="@android:color/black"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/ee" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/bu9"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/f" />
+
+            <Button
+                android:id="@+id/bu10"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/g" />
+
+            <Button
+                android:id="@+id/bu11"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/h" />
+
+            <Button
+                android:id="@+id/bu12"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/i" />
+
+            <Button
+                android:id="@+id/bu13"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/j" />
+
+            <Button
+                android:id="@+id/bu14"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/k" />
+
+            <Button
+                android:id="@+id/bu15"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/l" />
+
+            <Button
+                android:id="@+id/bu16"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/ll" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/bu17"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/m" />
+
+            <Button
+                android:id="@+id/bu18"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/n" />
+
+            <Button
+                android:id="@+id/bu19"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/nn" />
+
+            <Button
+                android:id="@+id/bu20"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/o" />
+
+            <Button
+                android:id="@+id/bu21"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/oo" />
+
+            <Button
+                android:id="@+id/bu22"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/p" />
+
+            <Button
+                android:id="@+id/bu23"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/r" />
+
+            <Button
+                android:id="@+id/bu24"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/s" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/bu25"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/ss" />
+
+            <Button
+                android:id="@+id/bu26"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/t" />
+
+            <Button
+                android:id="@+id/bu27"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/u" />
+
+            <Button
+                android:id="@+id/bu28"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/w" />
+
+            <Button
+                android:id="@+id/bu29"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/y" />
+
+            <Button
+                android:id="@+id/bu30"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/z" />
+
+            <Button
+                android:id="@+id/bu31"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_margin="1pt"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/zzz" />
+
+            <Button
+                android:id="@+id/bu32"
+                android:textColor="@android:color/black"
+                android:layout_width="18pt"
+                android:layout_height="20pt"
+                android:layout_margin="1pt"
+                style="?android:attr/buttonBarButtonStyle"
+                android:onClick="chooseButton"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/zz" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/viewWord"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="@string/word"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buLosuj"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@android:drawable/btn_default"
+        android:gravity="center"
+        android:onClick="getWord"
+        android:text="@string/con"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2" />
+
+
+</android.support.constraint.ConstraintLayout>

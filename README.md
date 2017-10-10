@@ -1,1 +1,2 @@
-# Hangman-FullApp
+# Hangman
+Basic game for Android
